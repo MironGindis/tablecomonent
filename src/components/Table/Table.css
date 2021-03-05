@@ -1,0 +1,38 @@
+th, td {
+    border: 1px solid black;
+    padding: 5px 0px;
+    width: 180px;
+    text-align: center;
+  }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.PageSizeBtn {
+  border: 1px solid black;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.PageSizeBtnWrapper {
+  display: flex;
+}
+.Active {
+  background-color: red;
+  font-weight: 600;
+}
+
+.SortUp::after {
+  content: '\2B06';
+  position: absolute;
+}
+
+.SortDown::after {
+  content: '\2B07';
+  position: absolute;
+}
